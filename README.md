@@ -29,7 +29,7 @@ Todo ano é preciso descrever as características de um sistema que será constr
 
 ## Membros da equipe (Até 3 pessoas. Identificar o líder)
 
-- Aluno 1 (líder)
+- [Francisco](https://github.com/frchico) (líder)
 - Aluno 2
 - Aluno 3
 
