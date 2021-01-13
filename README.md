@@ -1,7 +1,7 @@
 
 # Exabyteshop
 
-## < Loja Virtual e-commerce >
+## Loja Virtual e-commerce
 
 ### RESUMO/JUSTIFICATIVA
 
