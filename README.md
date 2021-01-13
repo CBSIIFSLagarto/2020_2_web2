@@ -1,22 +1,26 @@
 
-# Nome
+# Exabyteshop
 
-## < Nome do sistema >
+## < Loja Virtual e-commerce >
 
 ### RESUMO/JUSTIFICATIVA
 
-Todo ano é preciso descrever as características de um sistema que será construído pelos alunos. O presente repositório busca organizar as ideias e definir um padrão/template de documentação de sistemas que seja simples e colaborativo.
+Visto a cresente demanda de vendas de artigos tecnológicos, esse sistema propõe uma loja virtual robusta, onde a empresa encontrará credibilidade, pois um site (sistema) é a principal forma para se estabelecer um bom relacionamento com o consumidor, pois lá é que está contido todo o DNA do negócio.
 
 ### OBJETIVOS
 
-- Definir um template de avaliação para ser utilizado na disciplina de web 2
+- Desenvolver uma loja virtual capaz de controlar os estoques, gerenciar perfis, intregação com redes sociais, logs e outras.
 
 ## FUNCIONALIDADES
 
-- [ ] Apresentar os requisitos funcionais
-- [x] Apresentar os requisitos não-funcionais
-- [ ] Indicar os membros da equipe
-- [x] Exibir repositório e dicas que são comuns
+- [ ] Telas de Cadastros básicos 
+- [ ] Telas de Cadastro e manutenção de usuários 
+- [ ] Controle de estoque
+- [ ] Controle de vendas
+- [ ] Telas de Cadastro e manutenção de produtos
+- [ ] Listar produtos com o Estoque
+- [ ] Carrinho de compras
+- [ ] Formas de pagamentos (Nessa fase o modulo pode não ser completo)
 
 ### REQUISITOS NÃO FUNCIONAIS
 
@@ -26,8 +30,10 @@ Todo ano é preciso descrever as características de um sistema que será constr
 - Possuir, pelo menos um, relacionamento 1:N (um para muitos)
 - Possuir, pelo menos um, relacionamento M:N (muito para muitos)
 - Fazer um programa, em C# com Entity Framework, para realizar carga inicial dos dados
+- Identity Microsoft: Gerenciamento de usuários
+- Framework Front-End: (Ainda não definido)
 
-## Membros da equipe (Até 3 pessoas. Identificar o líder)
+## Membros da equipe
 
 - [Akeu Andrade](https://github.com/Akeu-Andrade) (líder)
 - [Joseclecio](https://github.com/joseclecio)
@@ -40,7 +46,7 @@ Todo ano é preciso descrever as características de um sistema que será constr
 - [A collection of awesome **.NET CORE** libraries, tools, frameworks, and software](https://github.com/thangchung/awesome-dotnet-core)
 - [A collection of awesome **.NET** libraries, tools, frameworks, and software](https://github.com/quozd/awesome-dotnet) - Referência, pois é para .NET e não .NET CORE
 
-### Gerenciar seu trabalho no GitHub
+### Dicas do GitHub
 
 O github contém várias ferramentas que permitem o gerenciamento projeto, promovendo entre outros recursos a rastreabilidade e o gerenciamento das atividades. Saiba mais nos links abaixo.
 
@@ -59,7 +65,11 @@ Data | Descrição
 ??/03/2020 | Entrega de [protótipos](prototipos/prototipos.md) das principais telas do sistema proposto (e que atendam aos itens descritos no REQUISITOS NÃO FUNCIONAIS)
 
 ## Project status
-Este projeto é um template para a definição da avaliação da disciplina programação web 2, do período de 2021.1 (aulas remotas), do IFS
+Este projeto é uma avaliação da disciplina programação web 2, do período de 2020.2(aulas remotas), do IFS
 
 
 [Diretrizes de design de estrutura]: https://docs.microsoft.com/pt-br/dotnet/standard/design-guidelines/
+
+## Referências  
+
+https://onlinesites.com.br/blog/5-motivos-para-sua-empresa-ter-um-site/#:~:text=Al%C3%A9m%20de%20credibilidade%2C%20um%20site,de%20valores%2C%20seja%20ele%20como
