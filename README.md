@@ -29,9 +29,9 @@ Todo ano é preciso descrever as características de um sistema que será constr
 
 ## Membros da equipe (Até 3 pessoas. Identificar o líder)
 
-- Aluno 1 (líder)
-- Aluno 2
-- Aluno 3
+- [Akeu Andrade](https://github.com/Akeu-Andrade) (líder)
+- [Joseclecio](https://github.com/joseclecio)
+- [William Fraga](https://github.com/WilliamFraga)
 
 ## Dicas, repositórios e materiais úteis
 
