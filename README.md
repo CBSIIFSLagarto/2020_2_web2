@@ -5,7 +5,7 @@
 
 ### RESUMO/JUSTIFICATIVA
 
-Visto a cresente demanda de vendas de artigos tecnológicos, esse sistema propõe uma loja virtual robusta, onde a empresa encontrará credibilidade, pois um site (sistema) é a principal forma para se estabelecer um bom relacionamento com o consumidor, pois lá é que está contido todo o DNA do negócio.
+Visto a cresente demanda de vendas de artigos tecnológicos na pandemia, esse sistema propõe uma loja virtual bastante agradável. Pois um site (sistema) é a principal forma para se estabelecer um bom relacionamento com o consumidor e também é uma forma bastante simples de manter o cliente conectado com o que há de novo em produtos eletrónicos.
 
 ### OBJETIVOS
 
