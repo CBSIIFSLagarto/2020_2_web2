@@ -5,7 +5,7 @@
 
 ### RESUMO/JUSTIFICATIVA
 
-Visto a cresente demanda de vendas de artigos tecnológicos na pandemia, esse sistema propõe uma loja virtual bastante agradável e robusta. Pois um site (sistema) é a principal forma para se estabelecer um bom relacionamento com o consumidor e também é uma forma bastante simples de manter o cliente conectado com o que há de novo, sem as frustações e incômodos corriqueiros do espaço físico, principalmente em um período de e pós-pandemia.
+Visto a crescente demanda de vendas de artigos tecnológicos na pandemia, esse sistema propõe uma loja virtual bastante agradável e robusta. Pois um site (sistema) é a principal forma para se estabelecer um bom relacionamento com o consumidor e também é uma forma bastante simples de manter o cliente conectado com o que há de novo, sem as frustrações e incômodos corriqueiros do espaço físico, principalmente em um período de e pós-pandemia.
 
 "Uma das formas que o varejo encontrou para continuar lucrando em meio à crise do novo coronavírus foi o e-commerce. Em março – mês de início do isolamento social em grande parte do Brasil –, de acordo com a ABComm (Associação Brasileira de Comércio Eletrônico), foram criadas 80 mil novas lojas virtuais. Em abril, as vendas online cresceram 47%, com mais de 25 milhões de pedidos em 4 mil e-commerces em todo o país." [Information Management](https://docmanagement.com.br/)
 
