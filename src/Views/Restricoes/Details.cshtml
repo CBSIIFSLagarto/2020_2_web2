@@ -1,0 +1,30 @@
+﻿@model SisGerenciador.src.Models.Restricao
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Detalhes</h1>
+
+<div>
+    <h4>Restricao</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "form-group col-sm-2">
+            @Html.DisplayNameFor(model => model.Aluno)
+        </dt>
+        <dd class = " form-group col-sm-8">
+            @Html.DisplayFor(model => model.Aluno.CPF)
+        </dd>
+        <dt class = "form-group col-sm-2">
+            @Html.DisplayNameFor(model => model.Horario)
+        </dt>
+        <dd class = " form-group col-sm-8">
+            @Html.DisplayFor(model => model.Horario.Id)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Editar</a> |
+    <a asp-action="Index">Voltar a lista</a>
+</div>

@@ -1,0 +1,24 @@
+﻿@model SisGerenciador.src.Models.PeriodoCurricular
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Detalhes</h1>
+
+<div>
+    <h4>PeriodoCurricular</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "form-group col-sm-2">
+            @Html.DisplayNameFor(model => model.NumOrdinal)
+        </dt>
+        <dd class = " form-group col-sm-8">
+            @Html.DisplayFor(model => model.NumOrdinal)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Editar</a> |
+    <a asp-action="Index">Voltar a lista</a>
+</div>

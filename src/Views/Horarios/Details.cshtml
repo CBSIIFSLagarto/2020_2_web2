@@ -1,0 +1,36 @@
+﻿@model SisGerenciador.src.Models.Horario
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Detalhes</h1>
+
+<div>
+    <h4>Horario</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "form-group col-sm-2">
+            @Html.DisplayNameFor(model => model.DiaSemana)
+        </dt>
+        <dd class = " form-group col-sm-8">
+            @Html.DisplayFor(model => model.DiaSemana)
+        </dd>
+        <dt class = "form-group col-sm-2">
+            @Html.DisplayNameFor(model => model.Turno)
+        </dt>
+        <dd class = " form-group col-sm-8">
+            @Html.DisplayFor(model => model.Turno)
+        </dd>
+        <dt class = "form-group col-sm-2">
+            @Html.DisplayNameFor(model => model.HoraAula)
+        </dt>
+        <dd class = " form-group col-sm-8">
+            @Html.DisplayFor(model => model.HoraAula.Descricao)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Editar</a> |
+    <a asp-action="Index">Voltar a lista</a>
+</div>

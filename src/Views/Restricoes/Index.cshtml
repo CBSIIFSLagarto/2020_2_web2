@@ -1,0 +1,35 @@
+﻿@model IEnumerable<SisGerenciador.src.Models.Restricao>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Restrições</h1>
+
+<p>
+    <a asp-action="Create">Novo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Horario)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Horario.Id)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id"><ion-icon name="create-sharp"></ion-icon></a> |
+                <a asp-action="Details" asp-route-id="@item.Id"><ion-icon name="search-sharp"></ion-icon></a> |
+                <a asp-action="Delete" asp-route-id="@item.Id"><ion-icon name="trash-sharp"></ion-icon></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

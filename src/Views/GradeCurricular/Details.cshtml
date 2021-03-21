@@ -1,0 +1,42 @@
+﻿@model SisGerenciador.src.Models.GradeCurricular
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Detalhes</h1>
+
+<div>
+    <h4>GradeCurricular</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "form-group col-sm-2">
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+        <dd class = " form-group col-sm-8">
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+        <dt class = "form-group col-sm-2">
+            @Html.DisplayNameFor(model => model.Curso)
+        </dt>
+        <dd class = " form-group col-sm-8">
+            @Html.DisplayFor(model => model.Curso.Descricao)
+        </dd>
+        <dt class = "form-group col-sm-2">
+            @Html.DisplayNameFor(model => model.PeriodoCurricular)
+        </dt>
+        <dd class = " form-group col-sm-8">
+            @Html.DisplayFor(model => model.PeriodoCurricular.Id)
+        </dd>
+        <dt class = "form-group col-sm-2">
+            @Html.DisplayNameFor(model => model.Disciplina)
+        </dt>
+        <dd class = " form-group col-sm-8">
+            @Html.DisplayFor(model => model.Disciplina.Descricao)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Editar</a> |
+    <a asp-action="Index">Voltar a lista</a>
+</div>
